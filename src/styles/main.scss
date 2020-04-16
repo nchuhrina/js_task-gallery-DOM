@@ -6,3 +6,36 @@ body {
   margin: 0;
   padding: 0;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gallery__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+}
+
+.gallery {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+
+}
+
+.gallery__thumb {
+  margin-right: 1px;
+  width: 150px;
+  height: 150px;
+  border: 10px double lightgray;
+}
+
+.gallery__large-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 10px double lightgray;
+  box-sizing: border-box;
+}
